@@ -51,8 +51,8 @@ class AboutUsViewController: UIViewController , WKNavigationDelegate, SideMenuIt
     
     func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
         title = webView.title
-        let scrollPoint = CGPoint(x: 0, y: 25)
-        webView.scrollView.setContentOffset(scrollPoint, animated: true)//Set false if you doesn't want animation
+//        let scrollPoint = CGPoint(x: 0, y: 25)
+//        webView.scrollView.setContentOffset(scrollPoint, animated: true)//Set false if you doesn't want animation
     }
 }
 

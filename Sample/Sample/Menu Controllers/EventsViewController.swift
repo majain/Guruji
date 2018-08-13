@@ -53,8 +53,8 @@ class EventsViewController: UIViewController , WKNavigationDelegate, SideMenuIte
     
     func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
         title = webView.title
-        let scrollPoint = CGPoint(x: 0, y: 40)
-        webView.scrollView.setContentOffset(scrollPoint, animated: false)//Set false if you doesn't want animation
+//        let scrollPoint = CGPoint(x: 0, y: 40)
+//        webView.scrollView.setContentOffset(scrollPoint, animated: false)//Set false if you doesn't want animation
     }
 }
 
