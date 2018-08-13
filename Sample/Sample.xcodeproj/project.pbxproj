@@ -18,6 +18,13 @@
 		D4028937202CEC45009F1262 /* SampleTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4028936202CEC45009F1262 /* SampleTableCell.swift */; };
 		D4C58476202DD6B0006EF43A /* Storyboardable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C58475202DD6B0006EF43A /* Storyboardable.swift */; };
 		D4C5847F202DD896006EF43A /* SampleMenuViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4C5847E202DD896006EF43A /* SampleMenuViewController.storyboard */; };
+		F94077BE2121239C00675376 /* SwiftWebVCActivityChrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94077AA2121239C00675376 /* SwiftWebVCActivityChrome.swift */; };
+		F94077BF2121239C00675376 /* SwiftWebVC.strings in Resources */ = {isa = PBXBuildFile; fileRef = F94077AC2121239C00675376 /* SwiftWebVC.strings */; };
+		F94077C02121239C00675376 /* SwiftWebVCActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94077B82121239C00675376 /* SwiftWebVCActivity.swift */; };
+		F94077C12121239C00675376 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F94077BA2121239C00675376 /* Media.xcassets */; };
+		F94077C22121239C00675376 /* SwiftModalWebVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94077BB2121239C00675376 /* SwiftModalWebVC.swift */; };
+		F94077C32121239C00675376 /* SwiftWebVCActivitySafari.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94077BC2121239C00675376 /* SwiftWebVCActivitySafari.swift */; };
+		F94077C42121239C00675376 /* SwiftWebVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94077BD2121239C00675376 /* SwiftWebVC.swift */; };
 		F98C7AE2211FADCB0087C70A /* EventsViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F98C7AD4211FADCB0087C70A /* EventsViewController.storyboard */; };
 		F98C7AE3211FADCB0087C70A /* VideoWebController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F98C7AD5211FADCB0087C70A /* VideoWebController.storyboard */; };
 		F98C7AE4211FADCB0087C70A /* GallaryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F98C7AD6211FADCB0087C70A /* GallaryViewController.xib */; };
@@ -85,6 +92,23 @@
 		D4028936202CEC45009F1262 /* SampleTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleTableCell.swift; sourceTree = "<group>"; };
 		D4C58475202DD6B0006EF43A /* Storyboardable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboardable.swift; sourceTree = "<group>"; };
 		D4C5847E202DD896006EF43A /* SampleMenuViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SampleMenuViewController.storyboard; sourceTree = "<group>"; };
+		F94077AA2121239C00675376 /* SwiftWebVCActivityChrome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftWebVCActivityChrome.swift; sourceTree = "<group>"; };
+		F94077AD2121239C00675376 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/SwiftWebVC.strings; sourceTree = "<group>"; };
+		F94077AE2121239C00675376 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/SwiftWebVC.strings"; sourceTree = "<group>"; };
+		F94077AF2121239C00675376 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/SwiftWebVC.strings; sourceTree = "<group>"; };
+		F94077B02121239C00675376 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/SwiftWebVC.strings; sourceTree = "<group>"; };
+		F94077B12121239C00675376 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/SwiftWebVC.strings; sourceTree = "<group>"; };
+		F94077B22121239C00675376 /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/SwiftWebVC.strings; sourceTree = "<group>"; };
+		F94077B32121239C00675376 /* es-ES */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-ES"; path = "es-ES.lproj/SwiftWebVC.strings"; sourceTree = "<group>"; };
+		F94077B42121239C00675376 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/SwiftWebVC.strings"; sourceTree = "<group>"; };
+		F94077B52121239C00675376 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/SwiftWebVC.strings; sourceTree = "<group>"; };
+		F94077B62121239C00675376 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/SwiftWebVC.strings; sourceTree = "<group>"; };
+		F94077B72121239C00675376 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/SwiftWebVC.strings; sourceTree = "<group>"; };
+		F94077B82121239C00675376 /* SwiftWebVCActivity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftWebVCActivity.swift; sourceTree = "<group>"; };
+		F94077BA2121239C00675376 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		F94077BB2121239C00675376 /* SwiftModalWebVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftModalWebVC.swift; sourceTree = "<group>"; };
+		F94077BC2121239C00675376 /* SwiftWebVCActivitySafari.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftWebVCActivitySafari.swift; sourceTree = "<group>"; };
+		F94077BD2121239C00675376 /* SwiftWebVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftWebVC.swift; sourceTree = "<group>"; };
 		F98C7AD4211FADCB0087C70A /* EventsViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = EventsViewController.storyboard; sourceTree = "<group>"; };
 		F98C7AD5211FADCB0087C70A /* VideoWebController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = VideoWebController.storyboard; sourceTree = "<group>"; };
 		F98C7AD6211FADCB0087C70A /* GallaryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GallaryViewController.xib; sourceTree = "<group>"; };
@@ -162,6 +186,7 @@
 		D4C5847B202DD828006EF43A /* Supporting Items */ = {
 			isa = PBXGroup;
 			children = (
+				F94077A92121239C00675376 /* SwiftWebVC */,
 				881EF0AE1E3102E30035DEB4 /* Assets.xcassets */,
 				881EF0B01E3102E30035DEB4 /* LaunchScreen.storyboard */,
 				881EF0B31E3102E30035DEB4 /* Info.plist */,
@@ -186,6 +211,37 @@
 				D4C5847E202DD896006EF43A /* SampleMenuViewController.storyboard */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F94077A92121239C00675376 /* SwiftWebVC */ = {
+			isa = PBXGroup;
+			children = (
+				F94077AA2121239C00675376 /* SwiftWebVCActivityChrome.swift */,
+				F94077AB2121239C00675376 /* Strings */,
+				F94077B82121239C00675376 /* SwiftWebVCActivity.swift */,
+				F94077B92121239C00675376 /* Resources */,
+				F94077BB2121239C00675376 /* SwiftModalWebVC.swift */,
+				F94077BC2121239C00675376 /* SwiftWebVCActivitySafari.swift */,
+				F94077BD2121239C00675376 /* SwiftWebVC.swift */,
+			);
+			name = SwiftWebVC;
+			path = ../../SwiftWebVC;
+			sourceTree = "<group>";
+		};
+		F94077AB2121239C00675376 /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				F94077AC2121239C00675376 /* SwiftWebVC.strings */,
+			);
+			path = Strings;
+			sourceTree = "<group>";
+		};
+		F94077B92121239C00675376 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F94077BA2121239C00675376 /* Media.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		F98C7AD3211FADCB0087C70A /* Menu Controllers */ = {
@@ -245,6 +301,7 @@
 				TargetAttributes = {
 					881EF0A31E3102E30035DEB4 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = T7Y3Y5NAVD;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -256,6 +313,16 @@
 			knownRegions = (
 				en,
 				Base,
+				de,
+				"zh-Hans",
+				ja,
+				es,
+				da,
+				"es-ES",
+				"zh-Hant",
+				vi,
+				fr,
+				pt,
 			);
 			mainGroup = 881EF09B1E3102E30035DEB4;
 			productRefGroup = 881EF0A51E3102E30035DEB4 /* Products */;
@@ -290,10 +357,12 @@
 			files = (
 				D4C5847F202DD896006EF43A /* SampleMenuViewController.storyboard in Resources */,
 				881EF0B21E3102E30035DEB4 /* LaunchScreen.storyboard in Resources */,
+				F94077C12121239C00675376 /* Media.xcassets in Resources */,
 				F98C7AE6211FADCB0087C70A /* AboutUsViewController.storyboard in Resources */,
 				F98C7AE4211FADCB0087C70A /* GallaryViewController.xib in Resources */,
 				F98C7AED211FADCB0087C70A /* TabBarViewController.storyboard in Resources */,
 				881EF0AF1E3102E30035DEB4 /* Assets.xcassets in Resources */,
+				F94077BF2121239C00675376 /* SwiftWebVC.strings in Resources */,
 				F98C7AE3211FADCB0087C70A /* VideoWebController.storyboard in Resources */,
 				F98C7AEC211FADCB0087C70A /* TweakViewController.storyboard in Resources */,
 				881EF0AD1E3102E30035DEB4 /* Main.storyboard in Resources */,
@@ -309,9 +378,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F94077C32121239C00675376 /* SwiftWebVCActivitySafari.swift in Sources */,
 				F98C7AE5211FADCB0087C70A /* KittyViewController.swift in Sources */,
 				881EF0BE1E31037D0035DEB4 /* HostViewController.swift in Sources */,
+				F94077C42121239C00675376 /* SwiftWebVC.swift in Sources */,
 				D4C58476202DD6B0006EF43A /* Storyboardable.swift in Sources */,
+				F94077C22121239C00675376 /* SwiftModalWebVC.swift in Sources */,
 				D4028937202CEC45009F1262 /* SampleTableCell.swift in Sources */,
 				F98C7AEF211FADCB0087C70A /* AboutUsViewController.swift in Sources */,
 				F98C7AE7211FADCB0087C70A /* EventsViewController.swift in Sources */,
@@ -319,8 +391,10 @@
 				F98C7AEE211FADCB0087C70A /* GallaryViewController.swift in Sources */,
 				881EF0BF1E31037D0035DEB4 /* SampleMenuViewController.swift in Sources */,
 				881EF0A81E3102E30035DEB4 /* AppDelegate.swift in Sources */,
+				F94077C02121239C00675376 /* SwiftWebVCActivity.swift in Sources */,
 				F98C7AEB211FADCB0087C70A /* TabBarViewController.swift in Sources */,
 				F98C7AE8211FADCB0087C70A /* TweakViewController.swift in Sources */,
+				F94077BE2121239C00675376 /* SwiftWebVCActivityChrome.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,6 +428,24 @@
 				881EF0B11E3102E30035DEB4 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F94077AC2121239C00675376 /* SwiftWebVC.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F94077AD2121239C00675376 /* de */,
+				F94077AE2121239C00675376 /* zh-Hans */,
+				F94077AF2121239C00675376 /* ja */,
+				F94077B02121239C00675376 /* en */,
+				F94077B12121239C00675376 /* es */,
+				F94077B22121239C00675376 /* da */,
+				F94077B32121239C00675376 /* es-ES */,
+				F94077B42121239C00675376 /* zh-Hant */,
+				F94077B52121239C00675376 /* vi */,
+				F94077B62121239C00675376 /* fr */,
+				F94077B72121239C00675376 /* pt */,
+			);
+			name = SwiftWebVC.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -471,10 +563,11 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T7Y3Y5NAVD;
 				INFOPLIST_FILE = Sample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = is.handsome.Sample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mohit.gurudev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -485,10 +578,11 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T7Y3Y5NAVD;
 				INFOPLIST_FILE = Sample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = is.handsome.Sample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mohit.gurudev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
