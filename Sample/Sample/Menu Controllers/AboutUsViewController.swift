@@ -27,9 +27,13 @@ class AboutUsViewController: UIViewController , WKNavigationDelegate, SideMenuIt
         view = webView
     }
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        loadWeb()
+    }
+    
+    
+    func loadWeb() {
         // 1
         let url = URL(string: "http://www.sribrahmrishiashram.org/")!
         webView.load(URLRequest(url: url))
@@ -40,8 +44,16 @@ class AboutUsViewController: UIViewController , WKNavigationDelegate, SideMenuIt
         navigationController?.isToolbarHidden = false
     }
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+    }
+    
     func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
         title = webView.title
+        let scrollPoint = CGPoint(x: 0, y: 25)
+        webView.scrollView.setContentOffset(scrollPoint, animated: true)//Set false if you doesn't want animation
     }
 }
+
 

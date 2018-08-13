@@ -70,7 +70,8 @@ class HostViewController: MenuContainerViewController {
         let videoController = VideoWebController.storyboardNavigationController()
         let aboutUs = AboutUsViewController.storyboardNavigationController()
         let events = EventsViewController.storyboardNavigationController()
+        let gallary = GallaryViewController.storyboardNavigationController()
 
-        return [videoController, aboutUs, kittyController, events]
+        return [videoController, aboutUs, kittyController, events, gallary]
     }
 }

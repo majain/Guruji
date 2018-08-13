@@ -21,18 +21,16 @@ class EventsViewController: UIViewController , WKNavigationDelegate, SideMenuIte
         showSideMenu()
     }
     
-    override func loadView() {
-        webView = WKWebView()
-        webView.navigationDelegate = self
-        view = webView
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        loadWeb()
     }
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
+    func loadWeb() {
         // 1
         let url = URL(string: "http://www.sribrahmrishiashram.org/events")!
         webView.load(URLRequest(url: url))
+   
         
         // 2
         let refresh = UIBarButtonItem(barButtonSystemItem: .refresh, target: webView, action: #selector(webView.reload))
@@ -40,8 +38,23 @@ class EventsViewController: UIViewController , WKNavigationDelegate, SideMenuIte
         navigationController?.isToolbarHidden = false
     }
     
+    
+    override func loadView() {
+        webView = WKWebView()
+        webView.navigationDelegate = self
+        
+        view = webView
+    }
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+       
+    }
+    
     func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
         title = webView.title
+        let scrollPoint = CGPoint(x: 0, y: 40)
+        webView.scrollView.setContentOffset(scrollPoint, animated: false)//Set false if you doesn't want animation
     }
 }
 
